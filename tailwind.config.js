@@ -3,8 +3,8 @@ module.exports = {
     content: ["./**/*.{html,js}"],
     theme: {
         fontFamily: {
-            titles: ["'Montserrat', sans-serif"],
-            paragraphs: ["'Playfair Display', sans-serif"],
+            titles: ["Anton", "sans-serif"],
+            paragraphs: ["Frank Ruhl Libre", "serif"],
         },
         extend: {},
     },
