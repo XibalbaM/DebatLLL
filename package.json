@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "rm -rf dist && mkdir dist && postcss dev-style.css -o dist/style.css && cp index.html dist/index.html"
+        "build": "rm -rf dist && mkdir dist && postcss dev-style.css -o dist/style.css && cp index.html dist/index.html",
+        "dev": "npx postcss -o style.css dev-style.css --watch"
     },
     "author": "",
     "license": "ISC",

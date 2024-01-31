@@ -14,3 +14,11 @@ h1, h2, h3, h4, h5, h6 {
 a {
     @apply underline;
 }
+
+h2 {
+    @apply mt-[50px] mb-[20px];
+}
+
+section {
+    @apply mx-[25px] container w-full;
+}
